@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JA Business Agro Solutions | Gestão Rural & IA Agronômica</title>
+<meta name="description" content="Tecnologia que nasce na terra, não na planilha. Satélite NDVI, Dalva IA, DRE rural e estoque EAN-13, criados em Itapeva por quem vive o campo.">
+<meta name="theme-color" content="#06261a">
+<meta property="og:title" content="JA Business Agro Solutions">
+<meta property="og:description" content="Tecnologia que nasce na terra, não na planilha.">
+<meta property="og:image" content="img/julia-portrait.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Outfit:wght@300;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230D472B'/%3E%3Cg fill='none' stroke='%2310B981' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' transform='translate(4 4)'%3E%3Cpath d='M7 20h10M10 20c5.5-2.5.8-6.4 3-10M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8zM14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z'/%3E%3C/g%3E%3C/svg%3E">
+</head>
+<body>
+
+<div class="progress" aria-hidden="true"><span></span></div>
+
+<header class="nav" id="nav">
+  <a href="#topo" class="brand" aria-label="JA Agro Solutions, início">
+    <span class="brand-mark"><svg viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg></span>
+    <span class="brand-txt"><b>JA AGRO <em>SOLUTIONS</em></b><small>manifesto</small></span>
+  </a>
+  <nav class="nav-links" aria-label="Seções">
+    <a href="#historia">História</a>
+    <a href="#jornada">Jornada</a>
+    <a href="#manifesto">Manifesto</a>
+    <a href="#plataforma">Plataforma</a>
+  </nav>
+  <div class="nav-cta">
+    <a class="link-quiet" href="https://ja-business-agro-solutions.vercel.app/portal/login">Entrar</a>
+    <a class="btn btn-sm" href="https://ja-business-agro-solutions.vercel.app/plataforma">Ver a plataforma <i>→</i></a>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="topo">
+  <canvas class="field" id="field" aria-hidden="true"></canvas>
+  <div class="hero-grain" aria-hidden="true"></div>
+  <div class="hud hud-tl" aria-hidden="true"><span class="dot"></span> Itapeva, SP · 23°58′S 48°52′W</div>
+  <div class="hud hud-tr" aria-hidden="true">NDVI <b id="ndvi">0.84</b></div>
+
+  <div class="hero-inner">
+    <p class="eyebrow reveal">O manifesto por trás da plataforma</p>
+    <h1 class="hero-title" aria-label="Tecnologia que nasce na terra, não na planilha.">
+      <span class="line"><span>Tecnologia</span> <span>que</span> <span>nasce</span></span>
+      <span class="line"><span class="accent">na</span> <span class="accent">terra,</span> <span>não</span> <span>na</span></span>
+      <span class="line"><span class="strike">planilha.</span></span>
+    </h1>
+    <p class="hero-lede reveal">A JA Business Agro Solutions não começou numa sala de reuniões. Começou no chão de uma fazenda em Itapeva, com uma estudante de Agronomia que via o potencial da região e a falta de ferramentas para transformar esse potencial em produtividade real.</p>
+    <div class="hero-ctas reveal">
+      <a class="btn btn-glow" href="https://ja-business-agro-solutions.vercel.app/portal/cadastro">Criar conta grátis <i>→</i></a>
+      <a class="btn btn-ghost" href="https://ja-business-agro-solutions.vercel.app/portal/login">Já tenho conta</a>
+    </div>
+  </div>
+
+  <a href="#historia" class="scroll-cue" aria-label="Conhecer a história">
+    <span>Conhecer a história</span>
+    <span class="cue-line"></span>
+  </a>
+</section>
+
+<!-- FUNDADORA -->
+<section class="founder" id="historia">
+  <div class="founder-media">
+    <div class="founder-frame" id="founderFrame">
+      <img src="img/julia-portrait.jpg" alt="Júlia Almeida, fundadora da JA Business Agro Solutions" width="960" height="1280" loading="lazy">
+    </div>
+    <div class="founder-tag">
+      <b>Júlia Almeida</b>
+      <span>Fundadora & CEO</span>
+    </div>
+  </div>
+
+  <div class="founder-copy">
+    <p class="eyebrow dark reveal">A fundadora</p>
+    <h2 class="h2 reveal">Uma estudante de Agronomia que decidiu construir a ferramenta que faltava.</h2>
+    <p class="reveal">Júlia Almeida cursa o 4º ano de Agronomia na FAIT, Faculdade de Ciências Sociais e Agrárias de Itapeva. Há quatro anos à frente da JA Business Agro Solutions, ela vem construindo um aplicativo de gestão agrícola pensado para levar soluções tecnológicas reais ao agronegócio.</p>
+    <blockquote class="pull reveal">Não foi um plano de negócios feito de fora para dentro. Foi observação de campo, feita por quem estuda e vive a rotina da produção rural.</blockquote>
+    <p class="reveal">A ideia nasceu do grande potencial agrícola da região de Itapeva e da falta de ferramentas capazes de contribuir para a eficiência, a organização e o aumento da produtividade no campo.</p>
+
+    <div class="stats reveal">
+      <div><b data-count="4">4</b><span>º ano de Agronomia<br>FAIT, Itapeva/SP</span></div>
+      <div><b data-count="4">4</b><span>anos à frente<br>da JA Business Agro</span></div>
+      <div><b>SP</b><span>Itapeva<br>Sudoeste Paulista</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- DESTAQUE TV -->
+<section class="spotlight" aria-labelledby="tvTitle">
+  <img src="img/batalha-startups-ring.jpg" alt="Cenário do programa Batalha das Startups, exibido pela Record News" loading="lazy" class="spot-bg">
+  <div class="spot-inner">
+    <p class="eyebrow reveal"><span class="live"></span> Vitrine nacional</p>
+    <h2 class="spot-title reveal" id="tvTitle">Batalha das Startups<br><span>4ª temporada · Record News</span></h2>
+    <p class="reveal">Júlia foi selecionada para o programa e mostrou que os jovens empreendedores de Itapeva e do sudoeste paulista sabem transformar conhecimento em tecnologia para o agronegócio.</p>
+  </div>
+</section>
+
+<!-- JORNADA (scroll horizontal) -->
+<section class="journey" id="jornada">
+  <div class="journey-sticky">
+    <div class="journey-head">
+      <p class="eyebrow">Do campo aos palcos</p>
+      <h2 class="h2 light">A jornada, em imagens</h2>
+      <p class="journey-hint" aria-hidden="true">role <span>→</span></p>
+    </div>
+    <div class="track" id="track">
+      <figure class="card tall">
+        <img src="img/julia-agroceo.jpg" alt="Júlia Almeida no evento Agro CEO" loading="lazy">
+        <figcaption><b>01</b> Representando Itapeva no Agro CEO</figcaption>
+      </figure>
+      <figure class="card wide">
+        <img src="img/batalha-startups-ring.jpg" alt="Bastidores do Batalha das Startups" loading="lazy">
+        <figcaption><b>02</b> Bastidores do Batalha das Startups, Record News</figcaption>
+      </figure>
+      <figure class="card tall">
+        <img src="img/julia-palestra.jpg" alt="Júlia Almeida em painel de startups, microfone em mãos" loading="lazy">
+        <figcaption><b>03</b> Levando a voz do agro de Itapeva para o palco</figcaption>
+      </figure>
+      <figure class="card wide">
+        <img src="img/jd-business-academy-grupo.jpg" alt="Foto em grupo no evento JD Business Academy" loading="lazy">
+        <figcaption><b>04</b> Ao lado de outros empreendedores selecionados, JD Business Academy</figcaption>
+      </figure>
+      <figure class="card wide">
+        <img src="img/julia-perfil.jpg" alt="Júlia Almeida no evento da FAIT" loading="lazy">
+        <figcaption><b>05</b> Júlia Almeida, fundadora & CEO</figcaption>
+      </figure>
+      <div class="card end">
+        <p>E isso é só o começo da safra.</p>
+        <a href="#manifesto" class="btn btn-ghost">Ler o manifesto ↓</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MANIFESTO -->
+<section class="manifesto" id="manifesto">
+  <div class="manifesto-head">
+    <p class="eyebrow dark reveal">No que a gente acredita</p>
+    <h2 class="h2 reveal">Manifesto JA Business Agro</h2>
+  </div>
+
+  <div class="tenets">
+    <article class="tenet">
+      <span class="tn">01</span>
+      <div>
+        <h3>Quem entende de terra, entende de software.</h3>
+        <p>Não terceirizamos a compreensão do problema. Cada tela do app parte de uma pergunta que só se aprende pisando no talhão: o que o produtor precisa decidir agora?</p>
+      </div>
+    </article>
+    <article class="tenet">
+      <span class="tn">02</span>
+      <div>
+        <h3>Inovação que cabe no bolso de quem trabalha no campo.</h3>
+        <p>Tecnologia de ponta não serve pra nada se for complicada demais pra usar às 5h da manhã, no meio da lavoura, com uma mão no celular e outra no trator.</p>
+      </div>
+    </article>
+    <article class="tenet">
+      <span class="tn">03</span>
+      <div>
+        <h3>O interior também constrói tecnologia de ponta.</h3>
+        <p>Itapeva e o sudoeste paulista não são só onde a matéria-prima nasce. São onde a próxima geração de ferramentas para o agronegócio está sendo escrita.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- PLATAFORMA -->
+<section class="platform" id="plataforma">
+  <div class="platform-head">
+    <p class="eyebrow reveal">A história é a raiz</p>
+    <h2 class="h2 light reveal">A plataforma é <span class="accent">a colheita.</span></h2>
+    <p class="reveal">Satélite, financeiro rural, Dalva IA e estoque. Tudo num só app, pensado para funcionar até sem sinal no meio do talhão.</p>
+  </div>
+
+  <div class="bento">
+    <article class="tile t-sat reveal">
+      <header><span class="chip">Satélite</span><h3>NDVI do seu talhão</h3></header>
+      <p>Índice de vigor calculado a cada passagem do Sentinel-2. O estresse aparece antes do olho humano ver.</p>
+      <div class="ndvi" id="ndviGrid" aria-hidden="true"></div>
+      <div class="legend" aria-hidden="true"><span>estresse</span><i></i><span>vigor</span></div>
+    </article>
+
+    <article class="tile t-ia reveal">
+      <header><span class="chip">Dalva IA</span><h3>Foto da folha, laudo em segundos</h3></header>
+      <div class="diag" aria-hidden="true">
+        <div class="leaf"><span class="scan"></span></div>
+        <ul>
+          <li><span>Cultura</span><b>Soja · R3</b></li>
+          <li><span>Diagnóstico</span><b class="type" data-text="Ferrugem asiática"></b></li>
+          <li><span>Confiança</span><b><span class="meter"><i></i></span> 94%</b></li>
+          <li><span>Janela</span><b>Próximas 48h</b></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="tile t-fin reveal">
+      <header><span class="chip">Financeiro</span><h3>DRE rural & Livro Caixa</h3></header>
+      <p>Custos, receitas e margem por hectare. Relatório pronto pro contador.</p>
+      <div class="bars" aria-hidden="true">
+        <i style="--h:42%"></i><i style="--h:58%"></i><i style="--h:50%"></i><i style="--h:71%"></i><i style="--h:66%"></i><i style="--h:88%"></i>
+      </div>
+    </article>
+
+    <article class="tile t-est reveal">
+      <header><span class="chip">Estoque</span><h3>Leitor EAN-13</h3></header>
+      <p>Aponta a câmera, dá baixa no defensivo. Funciona offline.</p>
+      <div class="barcode" aria-hidden="true"><span class="laser"></span></div>
+    </article>
+
+    <article class="tile t-off reveal">
+      <h3>100% offline no campo.</h3>
+      <p>Registra do trator, sincroniza quando o sinal volta.</p>
+    </article>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="final">
+  <canvas class="field field-sm" id="field2" aria-hidden="true"></canvas>
+  <div class="final-inner">
+    <h2 class="final-title reveal">A porteira<br>está aberta.</h2>
+    <p class="reveal">Tudo no Plano Pro Agro por <b>R$ 289,90/mês</b>. Crie sua conta em um minuto, de graça.</p>
+    <div class="hero-ctas reveal">
+      <a class="btn btn-glow" href="https://ja-business-agro-solutions.vercel.app/portal/cadastro">Criar conta grátis <i>→</i></a>
+      <a class="btn btn-ghost" href="https://ja-business-agro-solutions.vercel.app/plataforma">Explorar a plataforma</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <span>© 2026 JA Business Agro Solutions. Inovação para transformar empresas.</span>
+  <span>Itapeva, SP · Sudoeste Paulista</span>
+</footer>
+
+<script src="main.js?v=1"></script>
+</body>
+</html>
